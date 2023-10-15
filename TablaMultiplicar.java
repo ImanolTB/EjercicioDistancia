@@ -11,8 +11,7 @@ public class TablaMultiplicar {
 		Scanner sc= new Scanner(System.in);
 		num= sc.nextInt();
 		for(i=1;i<=10;i++) {
-			multiplicacion= i*num;
-			System.out.println(multiplicacion);
-		}
+		multiplicacion= i*num;
+		System.out.println(num + " * " + i + " = " + multiplicacion);		}
 	}
 }
